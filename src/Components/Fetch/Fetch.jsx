@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import MostrarFecha from "./MostrarFecha";
+import MostrarFecha from "../MostrarFecha/MostrarFecha";
 
 
 const Fetch = () => {

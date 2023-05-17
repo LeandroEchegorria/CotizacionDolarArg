@@ -1,12 +1,11 @@
 
 <h3 align="center">Price of the Dollar (USD) in Argentina</h3>
 
-- 📫 How to reach me **leandro.echegorria@gmail.com**
-
 - This project was created with **Vite** and **ReactJS**.
 
 - The API may or may not be outdated and since I do not update it, I am not responsible for its proper functioning.
 
+- The app delivers the various values of the Argentinian Peso against the USD.
 
 <h3 align="center">Languages and Tools used in this project:</h3>
 <p align="center"> 
