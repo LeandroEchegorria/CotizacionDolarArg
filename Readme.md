@@ -21,7 +21,7 @@
   <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> 
   </a>  -->
   <a href="https://vitejs.dev" rel='noreferrer' target="_blank">
-    <img src='https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg' className="logo" alt="Vite logo" />
+    <img src='https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg' className="logo" alt="Vite logo" width="40" height="40"/>
   </a>
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
