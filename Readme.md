@@ -1,5 +1,5 @@
 
-<h3 align="center">Price of the Dollar (USD) in Argentina</h3>
+<h2 align="center">Price of the Dollar (USD) in Argentina</h2>
 
 - This project was created with **Vite** and **ReactJS**.
 
@@ -40,5 +40,5 @@
 
 <h3 align="center">Support:</h3>
 <p align="center">
-<a href='https://cafecito.app/lemmans87' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_6.png 1x, https://cdn.cafecito.app/imgs/buttons/button_6_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_6_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_6.png' alt='Invitame un café en cafecito.app' /></a>
+<a href='https://cafecito.app/lemmans87' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_6.png 1x, https://cdn.cafecito.app/imgs/buttons/button_6_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_6_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_6.png' alt='Buy me a coffe in cafecito.app' /></a>
 </p>
