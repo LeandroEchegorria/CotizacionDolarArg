@@ -1,11 +1,5 @@
 
-<h3 align="center">Cotización del Dolar (USD) en Argentina</h3>
-
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=leandroechegorria&label=Profile%20views&color=0e75b6&style=flat" alt="leandroechegorria" /> </p>
-
-- 🔭 I’m currently working on **ReactJS**
-
-- 🌱 I’m currently learning **Node**
+<h3 align="center">Price of the Dollar (USD) in Argentina</h3>
 
 - 📫 How to reach me **leandro.echegorria@gmail.com**
 
@@ -15,7 +9,7 @@
 <a href="https://instagram.com/lemmans87" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="lemmans87" height="30" width="40" /></a>
 </p>
 
-<h3 align="center">Languages and Tools:</h3>
+<h3 align="center">Languages and Tools used in this project:</h3>
 <p align="center"> 
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
