@@ -1,44 +1,40 @@
 import { useState, useEffect } from "react";
-import MostrarFecha from "../MostrarFecha/MostrarFecha";
-
+import Card from "../Card/Card";
+import Loading from "../Loading/Loading";
 
 const Fetch = () => {
   const [datos, setDatos] = useState({});
+  const [isLoading , setIsLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchData() {
-      
+    const interval = setInterval(() => {
+      async function fetchData() {
         const response = await fetch('https://api.bluelytics.com.ar/v2/latest');
         const data = await response.json();
         setDatos(data);
-        
+        setIsLoading(false);
+        console.log(datos)
       }
-    
     fetchData();
-  }, []);  
-  
-  
+    }, 0.1*60*1000)
+    return () => {
+      clearInterval(interval);
+    };
+  }, [datos.last_update]);  
 
-    
   return (
     <div>
-      <h2>Cotización del Dolar en Argentina</h2>
-      <h4>Fecha de actualización:{datos.last_update && <MostrarFecha fechas={datos.last_update} />}</h4>
-          <div>
-            <li>Dolar Oficial:
-              <p>Compra: ${datos.oficial?.value_sell}</p>
-              <p>Venta: ${datos.oficial?.value_buy}</p>
-            </li>
-            <li>Dolar Blue:
-              <p>Compra: ${datos.blue?.value_sell}</p>
-              <p>Venta: ${datos.blue?.value_buy}</p>
-            </li>
-
-
-
-          </div>
-          
-      
+      {isLoading ? (
+        <Loading/>
+      ) : (
+        <Card 
+      fecha={datos.last_update} 
+      oficialCompra={datos.oficial?.value_buy}
+      oficialVenta={datos.oficial?.value_sell}
+      blueCompra={datos.blue?.value_buy}
+      blueVenta={datos.blue?.value_sell}
+      />
+      )}      
     </div>
   )
 }
